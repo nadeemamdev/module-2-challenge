@@ -1,5 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap");
+/* Import fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Set global color variables */
+:root {
+  --background-color: #110644;
+  --primary-accent-color: #d50a84;
+  --primary-accent-color-darker: #f127a0;
+  --text-color: #fbfcfd;
+  --secondary-accent-color-1: #1c1c1c;
+  --secondary-accent-color-2: #41484e;
+}
+
+/* Set font for Headings */
 h1,
 h2,
 h3,
@@ -9,9 +21,64 @@ h6 {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+/* Set font and styles for Body */
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
+  background: var(--background-color);
+}
+
+/* Set styles for Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.6vh;
+  padding: 0 3.125rem;
+  font-weight: 500;
+}
+
+nav h1 {
+  color: var(--primary-accent-color);
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  margin-right: 1.5625rem;
+}
+
+nav ul li:hover a {
+  color: var(--primary-accent-color);
+}
+
+.contact-button {
+  border: none;
+  background: var(--primary-accent-color);
+  padding: 0.375rem 1.875rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--background-color) 0.2s ease;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.contact-button:hover {
+  background-color: var(--primary-accent-color-darker);
 }
