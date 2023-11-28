@@ -23,7 +23,7 @@ h6 {
 
 /* Set font and styles for Body */
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
@@ -157,7 +157,7 @@ article.social-proof-section .card:hover {
   border-color: var(--primary-accent-color-darker);
 }
 
-article.social-proof-section .card .info h5 {
+article.social-proof-section .card .info h4 {
   font-size: 1.5rem;
 }
 
@@ -178,4 +178,489 @@ article.social-proof-section .icon {
 
 article.social-proof-section .icon i {
   font-size: 2rem;
+}
+
+/* Set styles for All Sections */
+.section-title {
+  margin: 50px 50px 30px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  display: inline-block;
+  color: var(--primary-accent-color);
+  border-radius: 12px;
+}
+
+/* Set styles for About Me Section */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 50px;
+}
+
+.about-section img {
+  width: 280px;
+}
+
+.about-section .biography-section h3 {
+  color: var(--text-color);
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-section .biography-section p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.about-section .biography-sectio button {
+  margin-top: 30px;
+}
+
+/* Set styles for My Skills Section */
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.skills .left {
+  width: 680px;
+}
+
+.skills .left .info h3 {
+  color: var(--text-color);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.skills .left .info p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.skills .left button {
+  margin-top: 30px;
+}
+
+.skills .right {
+  width: 420px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills .right .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-accent-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.skills .right .item i {
+  font-size: 34px;
+  color: var(--text-color);
+}
+
+/* Set styles for My Projects section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+}
+
+.projects .featured-project-image {
+  width: 100%;
+  height: 100%;
+}
+
+.projects .project-image {
+  width: 100%;
+  height: fit-content;
+}
+
+.featured-project {
+  grid-column: span 4;
+}
+
+/* Start Hover Effect for Feaured Projects */
+img:hover {
+  filter: brightness(0.8) saturate(1.2) contrast(1.2)
+    drop-shadow(0 0 10px #d50a84);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* End Hover Effect for Featured Projects */
+
+.project-one,
+.project-two {
+  grid-column: span 2;
+}
+
+/* Set styles for Footer Section */
+footer {
+  position: relative;
+  background: var(--secondary-accent-color-1);
+  padding: 80px 50px 40px;
+  margin-top: 100px;
+}
+
+footer .start {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  background-color: var(--primary-accent-color);
+  padding: 30px 25px;
+  border-radius: 15px;
+  width: 70%;
+  top: -16%;
+  left: 15%;
+}
+
+footer .start p {
+  font-size: 13px;
+  width: 35%;
+}
+
+footer .start button {
+  background: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+footer .start button:hover {
+  background-color: var(--primary-accent-color-darker);
+  border-color: var(--background-color);
+}
+
+footer .cols {
+  display: flex;
+  align-items: start;
+}
+
+footer .cols .about-col {
+  flex: 3;
+}
+
+footer .cols .about-col h3 {
+  color: var(--primary-accent-color);
+  margin-bottom: 20px;
+}
+
+footer .cols .about-col p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+footer .cols .links-col {
+  flex: 3;
+}
+
+footer .cols .links-col h4,
+footer .cols .news-col h4 {
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+footer .cols .links-col a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 26px;
+  transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover {
+  color: --primary-accent-color;
+}
+
+footer .cols .news-col {
+  flex: 3;
+}
+
+footer .cols .news-col p {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+footer .cols .news-col form {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+footer .cols .news-col form input {
+  width: 100%;
+  background: #212529;
+  border: none;
+  padding: 13px;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer .cols .news-col form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: var(--primary-accent-color);
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer .cols .news-col form button:hover {
+  background-color: var(--primary-accent-color);
+}
+
+footer .cols .news-col form button i {
+  font-size: 26px;
+}
+
+/* Set Responsive Styles */
+@media screen and (max-width: 1100px) {
+  .social-proof-section {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social-proof-section .card {
+    flex-basis: 49%;
+  }
+
+  .skills {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .skills .left {
+    width: 500px;
+  }
+
+  .skills .left .info h3 {
+    font-size: 22px;
+  }
+
+  .skills .left .info p {
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+
+  footer .start {
+    width: 70%;
+    left: 8%;
+    top: -20%;
+  }
+
+  footer .cols {
+    flex-wrap: wrap;
+  }
+
+  footer .cols .about-col {
+    flex-basis: 50%;
+  }
+
+  footer .cols .links-col {
+    flex-basis: 50%;
+  }
+
+  footer .cols .news-col {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 826px) {
+  main h2 {
+    font-size: 2.8rem;
+  }
+  main h3 {
+    font-size: 2.3rem;
+    main h4 {
+      font-size: 1.8rem;
+    }
+  }
+  article.social-proof-section .card {
+    height: 14rem;
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  nav button {
+    display: none;
+  }
+
+  main h2 {
+    font-size: 2rem;
+    margin-left: 40px;
+  }
+
+  .small-screen-margin {
+    margin-left: 35%;
+  
+
+  main h3 {
+    font-size: 2rem;
+  }
+
+  main h4 {
+    font-size: 1rem;
+  }
+
+  .social-proof-section .card {
+    flex-basis: 100%;
+  }
+
+  .about-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 701px) {
+  .social-proof-section {
+    display: block !important;
+  }
+
+  .social-proof-section .card {
+    width: 90% !important;
+    margin: 10px 0 !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-section {
+    gap: 40px;
+  }
+  .about-section img {
+    width: 150px;
+  }
+  nav {
+    justify-content: center;
+  }
+
+  nav h2 {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  main {
+    margin-top: 50px;
+    height: 320px;
+    justify-content: start;
+  }
+
+  main h4 {
+    font-size: 20px;
+  }
+
+  main p.title {
+    font-size: 28px;
+  }
+
+  main p.subtitle {
+    font-size: 12px;
+  }
+
+  main img {
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+  }
+
+  article.social-proof-section {
+    margin-top: 10rem;
+    overflow: inherit;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills .right {
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .skills .left .info h3 {
+    font-size: 20px;
+  }
+
+  footer .start {
+    top: -8%;
+  }
+
+  footer .start p {
+    display: none;
+  }
+
+  footer .cols .about-col {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer .cols .links-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .cols .news-col {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  footer .cols {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main h2 {
+    font-size: 18px;
+  }
+
+  main h3 {
+    font-size: 10px;
+  }
+
+  .social-proof-section .card .info h4 {
+    font-size: 20px;
+  }
+
+  .social-proof-section .card .info p {
+    font-size: 12px;
+  }
 }
