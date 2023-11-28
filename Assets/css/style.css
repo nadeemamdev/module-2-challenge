@@ -129,3 +129,53 @@ main img {
   height: 20rem;
   margin-top: 2rem;
 }
+
+/* Set styles for Social Proof Section */
+article.social-proof-section {
+  display: flex;
+  margin-top: 3rem;
+  padding: 0 3rem;
+  gap: 1.5rem;
+  flex-flow: nowrap;
+}
+
+article.social-proof-section .card {
+  background-color: var(--primary-accent-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10rem;
+  width: 100%;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  padding: 0 1.875rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+article.social-proof-section .card:hover {
+  border-color: var(--primary-accent-color-darker);
+}
+
+article.social-proof-section .card .info h5 {
+  font-size: 1.5rem;
+}
+
+article.social-proof-section .card .info p {
+  font-size: 1rem;
+}
+
+article.social-proof-section .icon {
+  width: 2.875rem;
+  height: 2.875rem;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+article.social-proof-section .icon i {
+  font-size: 2rem;
+}
