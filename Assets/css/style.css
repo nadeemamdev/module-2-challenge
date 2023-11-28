@@ -30,6 +30,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5rem;
   background: var(--background-color);
+  color: var(--text-color);
 }
 
 /* Set styles for Nav */
@@ -44,6 +45,10 @@ nav {
 
 nav h1 {
   color: var(--primary-accent-color);
+}
+
+nav h1 span {
+  color: var(--text-color);
 }
 
 nav ul {
@@ -81,4 +86,46 @@ nav ul li:hover a {
 
 .contact-button:hover {
   background-color: var(--primary-accent-color-darker);
+}
+
+/* Set styles for Main content */
+main {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2,
+main h3,
+main h4 {
+  font-weight: 400;
+}
+
+main h2 {
+  font-size: 3rem;
+}
+
+main h2 span {
+  text-decoration: underline;
+  color: var(--primary-accent-color);
+}
+
+main h3 {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main h4 {
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+main img {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
 }
