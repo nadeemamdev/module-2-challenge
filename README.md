@@ -16,7 +16,7 @@ I was tasked to use my existing skills to crate a build a portfolio page, which 
 
 Screenshot of Live Site:
 
-![A screenshot of the live site deployed on Github pages.](https://nadeemamdev.github.io/module-2-challenge/Assets/Images/screenshot.png)
+![A screenshot of the live site deployed on Github pages.]([https://nadeemamdev.github.io/module-2-challenge/Assets/Images/screenshot.png](https://nadeemamdev.github.io/module-2-challenge/Assets/images/screenshot.png))
 
 ## Credits
 
