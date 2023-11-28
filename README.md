@@ -2,7 +2,7 @@
 
 ## Description
 
-I was tasked to use my existing skills to crate a build a portfolio page, which I can add to as the edX Skills Bootcamp course progresses.
+I was tasked to use my existing skills to build a portfolio page, which I can add to as the edX Skills Bootcamp course progresses.
 
 ## Table of Contents
 
