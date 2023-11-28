@@ -12,9 +12,11 @@ I was tasked to use my existing skills to crate a build a portfolio page, which 
 
 ## Usage
 
-[Click this link to visit the site on Github pages]([https://www.example.com](https://nadeemamdev.github.io/module-2-challenge/))
+[Click this link to visit the site on Github pages](https://nadeemamdev.github.io/module-2-challenge/)
 
 Screenshot of Live Site:
+
+![A screenshot of the live site deployed on Github pages.](https://nadeemamdev.github.io/module-2-challenge/Assets/Images/screenshot.png)
 
 ## Credits
 
