@@ -1,26 +1,194 @@
 <!DOCTYPE html>
+
 <html lang="en-gb">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nadeem Mahomed, Developer</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/Assets/css/style.css">
+  <title>Nadeem Mahomed, Developer Showcase</title>
 </head>
 
 <body>
+  <!-- HTML code for the Nav -->
+  <nav>
+    <h1>Nadeem Mahomed, <span>Front End Web Developer</span></h1>
+    <ul>
+      <li><a href="#about-section">About Me</a></li>
+      <li><a href="#projects">My Work</a></li>
+    </ul>
+    <button class="contact-button">Get in Touch!</button>
+  </nav>
+  <!-- HTML code for Main content -->
+  <main>
+    <h2>I'm <span>Nadeem</span>! Welcome to my Developer <span class="small-screen-margin">Showcase</span></h2>
+    <h3>Front End Web Developer</h3>
+    <h4>"I specialise in designing and implementing beautiful websites"</h4>
+    <img src="Assets/images/logo.png"
+      alt="Nadeem Mahomed's logo. A circular pattern with the words Nadeem Mahomed encased.">
+  </main>
+  <!-- HTML code for Social Proof Section -->
+  <article class="social-proof-section">
+    <div class="card">
+      <div class="icon">
+        <i class='bx bxs-hourglass'></i>
+      </div>
+      <div class="info">
+        <h4>Over 10 Years</h4>
+        <p>Creating Awesome Websites!</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <i class='bx bx-badge-check'></i>
+      </div>
+      <div class="info">
+        <h4>Proven Processes</h4>
+        <p>Create Industry Leading Results</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <i class='bx bx-smile'></i>
+      </div>
+      <div class="info">
+        <h4>20+</h4>
+        <p>Super Happy Website Clients</p>
+      </div>
+    </div>
+  </article>
+  <!-- HTML code for About Me section -->
+  <h3 id="about-section" class="section-title">Who is Nadeem?</h3>
+  <article class="about-section">
+    <img src="/Assets/images/profile-picture.jpeg"
+      alt="A picture of Nadeem, the person this website is about. Nadeem is smiling at the camera dressed in a blazer.">
+    <section class="biography-section">
+      <h4>A Little About Me</h4>
+      <p>I've always loved technology. I am currently in edX's Skills Bootcamp, pursuing a career as a Web Developer. I
+        will graduate in March 2023 and be in an industry role by June 2023.</p>
+      <button class="contact-button">Get in Touch!</button>
+    </section>
+  </article>
+  <!-- HTML code for My Skills section -->
+  <h3 class="section-title">My Web Developer Skills</h3>
+  <!-- <article class="skills-section"></article> -->
+  <!-- New Code - Test -->
+  <div class="skills">
+    <div class="left">
+      <div class="info">
+        <h3>My Web Developer Skills</h3>
+        <p>
+          I use HTML, CSS and Javascript to craft excellent user experiences (UX).
+        </p>
+      </div>
+      <button class="contact-button">Get in Touch!</button>
+    </div>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href=#">Biography</a></li>
-        <li><a href=#">Recent Work</a></li>
-        <li><a href=#">Get in Touch!</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="right">
+      <div class="item">
+        <i class='bx bxl-html5'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-css3'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-tailwind-css'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-typescript'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-git'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-bootstrap'></i>
+      </div>
 
+      <div class="item">
+        <i class='bx bxl-mongodb'></i>
+      </div>
 
+      <div class="item">
+        <i class='bx bxl-jquery'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-angular'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-sass'></i>
+      </div>
+      <div class="item">
+        <i class='bx bxl-graphql'></i>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 id="projects" class="section-title">My Projects</h3>
+
+  <div class="projects">
+    <div class="featured-project">
+      <a href="https://tiranga.co.uk/"><img class="featured-project-image" src="/Assets/images/portfolio-item-3.png"
+          alt="An screenshot of Nadeem's proudest project, a restaurant website."></a>
+      <div class="featured-project-title project title">Tiranga.co.uk, a Resturant Website</div>
+    </div>
+    <div class="project-one">
+      <a href="https://nadeemamdev.github.io/prework-study-guide/"><img class="featured-project-image project-image"
+          src="/Assets/images/portfolio-item-1.png"
+          alt="A screenshot of Nadeem's project for the edX Bootcamp pre-work: a simple study guide."></a>
+      <div class="project title">edX Skills Bootcamp Study Guide, A Simple Web App</div>
+    </div>
+    <div class="project-two">
+      <a href="https://nadeemamdev.github.io/module-1-challenge/"><img class="featured-project-image project-image"
+          src="/Assets/images/portfolio-item-2.png"
+          alt="A screenshot of Nadeem's Module 1 project, a marketing agency website."></a>
+      <div class="project title">Marketing Agency Website, Refactored for Accessibility</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="start">
+      <h3>Schedule a Free 15-min Consultation</h3>
+      <p>Want to improve your website in 30m or less?</p>
+      <button>Let's grab a (virtual?) coffee ☕️ and I'll show you how</button>
+    </div>
+
+    <div class="cols">
+      <div class="about-col">
+        <h3>Nadeem Mahomed</h3>
+        <p>Front End Web Developer</p>
+      </div>
+
+      <div class="links-col">
+        <h4>Useful Links</h4>
+        <a href="#">About Me</a>
+        <a href="#">My Work</a>
+        <a href="#">Get In Touch!</a>
+      </div>
+
+      <div class="links-col">
+        <h4>Social Media Links - Coming Soon!</h4>
+        <a href="#">Github</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Resume/CV</a>
+
+      </div>
+
+      <div class="news-col">
+        <h4>Nadeem's Nuggets of Wisdom</h4>
+        <p>Enter your email and get notified tips and tricks each week to improve your business' website</p>
+
+        <form>
+          <input type="email" placeholder="Your email address">
+          <button><i class='bx bxl-telegram'></i></button>
+        </form>
+
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 
