@@ -16,7 +16,7 @@ I was tasked to use my existing skills to crate a build a portfolio page, which 
 
 Screenshot of Live Site:
 
-![A screenshot of the live site deployed on Github pages.](/Assets/Images/screenshot.png)
+![A screenshot of the live site deployed on Github pages.](Assets/images/screenshot.png)
 
 ## Credits
 
